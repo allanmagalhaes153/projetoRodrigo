@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Vozes que Transformam - Quiz</title>
+
+                <link rel="stylesheet" href="style.css">
+                <script src="script.js" defer></script>
+</head>
+
+<body>
+
+                <div class="container">
+
+                                <!-- 🏠 TELA INICIAL -->
+                                <div id="tela-inicial">
+
+                                                <h1>🌟 Vozes que Transformam</h1>
+
+                                                <p>
+                                                                Bem-vindo ao nosso quiz educativo!
+                                                </p>
+
+                                                <p>
+                                                                Teste seus conhecimentos sobre
+                                                                <strong>linguagem, cidadania, inclusão social,
+                                                                                coletividade, respeito às diferenças e
+                                                                                valorização
+                                                                                das mulheres garis.</strong>
+                                                </p>
+
+                                                <p>
+                                                                Cada pergunta ajudará você a refletir sobre o papel da
+                                                                linguagem na construção de uma sociedade mais justa,
+                                                                democrática e participativa.
+                                                </p>
+
+                                                <button id="startBtn">
+                                                                🚀 Iniciar Desafio
+                                                </button>
+
+                                </div>
+
+                                <!-- 🎮 ÁREA DO JOGO -->
+                                <div id="jogo" style="display: none;">
+
+                                                <!-- Personagem -->
+                                                <img id="personagem" class="personagem" src="assets/neutro.jpg"
+                                                                alt="Personagem do quiz">
+
+                                                <!-- Tema -->
+                                                <div class="tema-quiz">
+                                                                <span>📚 Linguagem</span>
+                                                                <span>🤝 Coletividade</span>
+                                                                <span>🌍 Cidadania</span>
+                                                                <span>✨ Inclusão Social</span>
+                                                </div>
+
+                                                <!-- Quiz -->
+                                                <div id="quiz">
+
+                                                                <div class="pergunta" id="pergunta"></div>
+
+                                                                <div class="opcoes" id="opcoes"></div>
+
+                                                                <div class="info" id="info"></div>
+
+                                                                <button id="nextBtn">
+                                                                                Próxima Pergunta ➜
+                                                                </button>
+
+                                                </div>
+
+                                                <!-- Resultado -->
+                                                <div id="resultado" class="resultado" style="display:none;">
+                                                </div>
+
+                                </div>
+
+                </div>
+
+</body>
+
+</html>
